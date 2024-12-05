@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LWM2M  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+  <Object ObjectType="MODefinition">
+    <Name>Radar Detection Range</Name>
+    <Description1>Configure the detection range of radar modules</Description1>
+    <ObjectID>34953</ObjectID>
+    <ObjectURN>urn:oma:lwm2m:x:34953</ObjectURN>
+    <LWM2MVersion>1.0</LWM2MVersion>
+    <ObjectVersion>1.0</ObjectVersion>
+    <MultipleInstances>Multiple</MultipleInstances>
+    <Mandatory>Optional</Mandatory>
+    <Resources>
+      <Item ID="0">
+          <Name>Detection Range</Name>
+          <Operations>RW</Operations>
+          <MultipleInstances>Single</MultipleInstances>
+          <Mandatory>Mandatory</Mandatory>
+          <Type>Integer</Type>
+          <RangeEnumeration></RangeEnumeration>
+          <Units>ft</Units>
+          <Description>The detection range value of the Radar</Description>
+      </Item>
+      <Item ID="1">
+          <Name>Detection Angle</Name>
+          <Operations>R</Operations>
+          <MultipleInstances>Single</MultipleInstances>
+          <Mandatory>Mandatory</Mandatory>
+          <Type>Float</Type>
+          <RangeEnumeration></RangeEnumeration>
+          <Units>m</Units>
+          <Description>The detection range value of the Radar</Description>
+      </Item>
+      <Item ID="2">
+          <Name>Detection Distance</Name>
+          <Operations>R</Operations>
+          <MultipleInstances>Single</MultipleInstances>
+          <Mandatory>Mandatory</Mandatory>
+          <Type>Float</Type>
+          <RangeEnumeration></RangeEnumeration>
+          <Units></Units>
+          <Description>The detection range value of the Radar</Description>
+      </Item>
+      <Item ID="3">
+          <Name>People Count</Name>
+          <Operations>R</Operations>
+          <MultipleInstances>Single</MultipleInstances>
+          <Mandatory>Mandatory</Mandatory>
+          <Type>Integer</Type>
+          <RangeEnumeration></RangeEnumeration>
+          <Units></Units>
+          <Description>The number of people that detectioned</Description>
+      </Item>
+      <Item ID="4">
+          <Name>Approaching</Name>
+          <Operations>R</Operations>
+          <MultipleInstances>Single</MultipleInstances>
+          <Mandatory>Mandatory</Mandatory>
+          <Type>Boolean</Type>
+          <RangeEnumeration></RangeEnumeration>
+          <Units></Units>
+          <Description>If there is anyone approaching the device then trun True</Description>
+      </Item>
+      <Item ID="5850">
+            <Name>On/Off</Name>
+            <Operations>RW</Operations>
+            <MultipleInstances>Single</MultipleInstances>
+            <Mandatory>Mandatory</Mandatory>
+            <Type>Boolean</Type>
+            <RangeEnumeration></RangeEnumeration>
+            <Units></Units>
+            <Description>On/off control. Boolean value where True is On and False is Off.</Description>
+      </Item>
+        <Item ID="5750">
+            <Name>Application Type</Name>
+            <Operations>RW</Operations>
+            <MultipleInstances>Single</MultipleInstances>
+            <Mandatory>Optional</Mandatory>
+            <Type>String</Type>
+            <RangeEnumeration></RangeEnumeration>
+            <Units></Units>
+            <Description>The application type of the sensor or actuator as a string depending on the use case.</Description>
+        </Item>
+    </Resources>
+    <Description2></Description2>
+    </Object>
+</LWM2M>
