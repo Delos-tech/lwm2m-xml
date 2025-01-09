@@ -6,19 +6,19 @@
     <ObjectID>34950</ObjectID>
     <ObjectURN>urn:oma:lwm2m:x:34950</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
-    <ObjectVersion>1.0</ObjectVersion>
+    <ObjectVersion>1.1</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>
     <Mandatory>Optional</Mandatory>
     <Resources>
       <Item ID="0">
           <Name>Need Change</Name>
-          <Operations>R</Operations>
+          <Operations>RW</Operations>
           <MultipleInstances>Single</MultipleInstances>
           <Mandatory>Mandatory</Mandatory>
           <Type>Boolean</Type>
           <RangeEnumeration></RangeEnumeration>
           <Units></Units>
-          <Description>The current state of filter-changing</Description>
+          <Description>The current state of filter-changing, set to true when filter needs to be changed.</Description>
       </Item>
       <Item ID="1">
           <Name>Identify Name</Name>
@@ -32,13 +32,13 @@
       </Item>
       <Item ID="2">
           <Name>Reset State</Name>
-          <Operations>E</Operations>
+          <Operations>RW</Operations>
           <MultipleInstances>Single</MultipleInstances>
           <Mandatory>Mandatory</Mandatory>
-          <Type></Type>
+          <Type>Boolean</Type>
           <RangeEnumeration></RangeEnumeration>
           <Units></Units>
-          <Description>Confirms that the filter was changed</Description>
+          <Description>Confirms that the filter was changed, set to true by purifier when filter is reset</Description>
       </Item>
     </Resources>
     <Description2></Description2>
