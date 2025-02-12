@@ -102,6 +102,16 @@ POSSIBILITY OF SUCH DAMAGE.
 				<Units></Units>
 				<Description>The timestamp of when the measurement was performed.</Description>
 			</Item>
+			<Item ID="5606">
+				<Name>Reset Filter Timer</Name>
+				<Operations>E</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type></Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description>Reset Filter Timer.</Description>
+			</Item>
 			<Item ID="6050">
 				<Name>Fractional Timestamp</Name>
 				<Operations>R</Operations>

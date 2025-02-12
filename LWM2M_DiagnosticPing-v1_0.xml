@@ -1,0 +1,51 @@
+﻿<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+	<Object ObjectType="MODefinition">
+		<Name>DiagnosticPing</Name>
+		<Description1><![CDATA[This LWM2M Object provides support for a diagnostic ping.]]></Description1>
+		<ObjectID>35000</ObjectID>
+		<ObjectURN>urn:oma:lwm2m:x:35000</ObjectURN>
+		<LWM2MVersion>1.0</LWM2MVersion>
+		<ObjectVersion>1.0</ObjectVersion>
+		<MultipleInstances>Multiple</MultipleInstances>
+		<Mandatory>Optional</Mandatory>
+		<Resources>
+			<Item ID="0"><Name>Diagnostic Ping</Name>
+				<Operations>R</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Mandatory</Mandatory>
+				<Type>String</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Diagnostic ping.]]></Description>
+			</Item>	
+			<Item ID="100"><Name>Send Immediate Ping</Name>
+				<Operations>E</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type></Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Send immediate diagnostic ping.]]></Description>
+			</Item>
+			<Item ID="1000"><Name>Override Value Timeout</Name>
+				<Operations>W</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Overriding value timeout (seconds).]]></Description>
+			</Item>
+			<Item ID="1001"><Name>Override PM2.5</Name>
+				<Operations>W</Operations>
+				<MultipleInstances>Single</MultipleInstances>
+				<Mandatory>Optional</Mandatory>
+				<Type>Integer</Type>
+				<RangeEnumeration></RangeEnumeration>
+				<Units></Units>
+				<Description><![CDATA[Overriding Pm2.5 value.]]></Description>
+			</Item>
+            </Resources>
+		<Description2></Description2>		
+	</Object>
+</LWM2M>
