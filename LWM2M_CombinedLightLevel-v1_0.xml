@@ -1,6 +1,6 @@
 ﻿<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
 	<Object ObjectType="MODefinition">
-		<Name>CombinedLightLevel</Name>
+		<Name>Combined Light Level</Name>
 		<Description1><![CDATA[This LWM2M Object provides a consolidated bundle of light levels for red, green, blue and infrared sensors.]]></Description1>
 		<ObjectID>35001</ObjectID>
 		<ObjectURN>urn:oma:lwm2m:x:35001</ObjectURN>
