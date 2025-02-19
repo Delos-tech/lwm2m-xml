@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LWM2M  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
   <Object ObjectType="MODefinition">
-    <Name>Filter Change State</Name>
-    <Description1>Confirms that filter was changed or need changed LwM2M object</Description1>
+    <Name>Device Notifications</Name>
+    <Description1>Indicates when various event notifications were received from the cube.</Description1>
     <ObjectID>34950</ObjectID>
     <ObjectURN>urn:oma:lwm2m:x:34950</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
-    <ObjectVersion>1.1</ObjectVersion>
+    <ObjectVersion>1.2</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>
     <Mandatory>Optional</Mandatory>
     <Resources>
       <Item ID="0">
-          <Name>Need Change</Name>
+          <Name>Factory Reset Indicator</Name>
           <Operations>RW</Operations>
           <MultipleInstances>Single</MultipleInstances>
           <Mandatory>Mandatory</Mandatory>
-          <Type>Boolean</Type>
+          <Type>Integer</Type>
           <RangeEnumeration></RangeEnumeration>
           <Units></Units>
-          <Description>The current state of filter-changing, set to true when filter needs to be changed.</Description>
+          <Description>Indicates if a factory reset occurred on the cube.</Description>
       </Item>
       <Item ID="1">
-          <Name>Identify Name</Name>
+          <Name>Reconnect Indicator</Name>
           <Operations>RW</Operations>
           <MultipleInstances>Single</MultipleInstances>
           <Mandatory>Mandatory</Mandatory>
-          <Type>String</Type>
+          <Type>Integer</Type>
           <RangeEnumeration></RangeEnumeration>
           <Units></Units>
-          <Description>The identify name of the filter</Description>
+          <Description>Indicates if a reconnection event occurred on the cube.</Description>
       </Item>
       <Item ID="2">
-          <Name>Reset State</Name>
+          <Name>Filter Reset Indicator</Name>
           <Operations>RW</Operations>
           <MultipleInstances>Single</MultipleInstances>
           <Mandatory>Mandatory</Mandatory>
