@@ -1,0 +1,54 @@
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+    <Object ObjectType="MODefinition">
+        <Name>Combined Radar</Name>
+        <Description1><![CDATA[This LWM2M Object provides an interface to the combined radar functionality.]]></Description1>
+        <ObjectID>35002</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:x:35002</ObjectURN>
+        <LWM2MVersion>1.0</LWM2MVersion>
+        <ObjectVersion>1.0</ObjectVersion>
+        <MultipleInstances>Multiple</MultipleInstances>
+        <Mandatory>Optional</Mandatory>
+        <Resources>
+            <Item ID="0"><Name>Combined Radar Values</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>String</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Combined radar measurements.]]></Description>
+            </Item>
+            <Item ID="2">
+                <Name>Minimum Sample Rate</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration>0-10</RangeEnumeration>
+                <Units>sec</Units>
+                <Description>A minimum rate at which any consecutive radar samples may be transmitted.  Recommend setting to 0 and use the occupied / unoccupied sample rate values to configure the sampling rate.</Description>
+            </Item>
+            <Item ID="3">
+                <Name>Occupied Sample Rate</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration>0-65535</RangeEnumeration>
+                <Units>sec</Units>
+                <Description>The shortest rate (in seconds) at which radar samples should be sent to the backend if occupancy is detected.</Description>
+            </Item>
+            <Item ID="4">
+                <Name>Unoccupied Sample Rate</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration>0-65535</RangeEnumeration>
+                <Units>sec</Units>
+                <Description>The shortest rate (in seconds) at which radar samples should be sent to the backend if there is no occupancy.</Description>
+            </Item>
+        </Resources>
+        <Description2></Description2>       
+    </Object>
+</LWM2M>
