@@ -54,6 +54,24 @@
                 <Units></Units>
                 <Description><![CDATA[Overriding visible lux value.]]></Description>
             </Item>
+            <Item ID="2000"><Name>Diagnostic Log</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>String</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Diagnostic log.]]></Description>
+            </Item>
+            <Item ID="2001"><Name>Diagnostic Log Mask</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Diagnostic log mask value.]]></Description>
+            </Item>
             </Resources>
 		<Description2></Description2>		
 	</Object>
