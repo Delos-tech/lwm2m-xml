@@ -1,0 +1,24 @@
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+    <Object ObjectType="MODefinition">
+        <Name>AQI Update</Name>
+        <Description1><![CDATA[This LWM2M Object provides an AQI sample along with the factors contributing to that sample.]]></Description1>
+        <ObjectID>35003</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:x:35003</ObjectURN>
+        <LWM2MVersion>1.0</LWM2MVersion>
+        <ObjectVersion>1.0</ObjectVersion>
+        <MultipleInstances>Multiple</MultipleInstances>
+        <Mandatory>Optional</Mandatory>
+        <Resources>
+            <Item ID="0"><Name>AQI Sample</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>String</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[AQI Sample.]]></Description>
+            </Item> 
+            </Resources>
+        <Description2></Description2>       
+    </Object>
+</LWM2M>

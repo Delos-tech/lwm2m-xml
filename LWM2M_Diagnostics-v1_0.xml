@@ -54,6 +54,15 @@
                 <Units></Units>
                 <Description><![CDATA[Overriding visible lux value.]]></Description>
             </Item>
+            <Item ID="1003"><Name>Override AQI</Name>
+                <Operations>W</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Overriding AQI.]]></Description>
+            </Item>
             <Item ID="2000"><Name>Diagnostic Log</Name>
                 <Operations>R</Operations>
                 <MultipleInstances>Single</MultipleInstances>
