@@ -18,14 +18,14 @@
                 <Units></Units>
                 <Description><![CDATA[MFG settings enabled.]]></Description>
             </Item>
-            <Item ID="1"><Name>Model ID</Name>
+            <Item ID="1"><Name>Model Number</Name>
                 <Operations>RW</Operations>
                 <MultipleInstances>Single</MultipleInstances>
                 <Mandatory>Optional</Mandatory>
                 <Type>String</Type>
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
-                <Description><![CDATA[Model ID.]]></Description>
+                <Description><![CDATA[Model number.]]></Description>
             </Item>
             </Resources>
         <Description2></Description2>
