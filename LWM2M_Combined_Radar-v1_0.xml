@@ -48,6 +48,16 @@
                 <Units>sec</Units>
                 <Description>The shortest rate (in seconds) at which radar samples should be sent to the backend if there is no occupancy.</Description>
             </Item>
+            <Item ID="5">
+                <Name>Approach Distance</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>Float</Type>
+                <RangeEnumeration>0-4</RangeEnumeration>
+                <Units>meters</Units>
+                <Description>The largest distance (in meters) at which an object is considered to be approaching.</Description>
+            </Item>
         </Resources>
         <Description2></Description2>       
     </Object>

@@ -1,0 +1,24 @@
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+    <Object ObjectType="MODefinition">
+        <Name>Thread Commands</Name>
+        <Description1><![CDATA[This LWM2M Object provides support for thread commands.]]></Description1>
+        <ObjectID>35005</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:x:35005</ObjectURN>
+        <LWM2MVersion>1.0</LWM2MVersion>
+        <ObjectVersion>1.0</ObjectVersion>
+        <MultipleInstances>Single</MultipleInstances>
+        <Mandatory>Optional</Mandatory>
+        <Resources>
+            <Item ID="0"><Name>Thread Reset</Name>
+                <Operations>E</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type></Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Reset the thread radio.]]></Description>
+            </Item>
+            </Resources>
+        <Description2></Description2>
+    </Object>
+</LWM2M>
