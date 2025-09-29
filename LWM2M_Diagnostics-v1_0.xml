@@ -27,6 +27,24 @@
 				<Units></Units>
 				<Description><![CDATA[Send immediate diagnostic ping.]]></Description>
 			</Item>
+            <Item ID="200"><Name>Diagnostic Get Request</Name>
+                <Operations>RW</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Diagnostic GET request item ID.]]></Description>
+            </Item>
+            <Item ID="201"><Name>Diagnostic Get Response Str</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>String</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Diagnostic GET response.]]></Description>
+            </Item>
 			<Item ID="1000"><Name>Override Value Timeout</Name>
 				<Operations>W</Operations>
 				<MultipleInstances>Single</MultipleInstances>
@@ -80,6 +98,24 @@
                 <RangeEnumeration></RangeEnumeration>
                 <Units></Units>
                 <Description><![CDATA[Diagnostic log mask value.]]></Description>
+            </Item>
+            <Item ID="2002"><Name>Diagnostic Disconnect Reason</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>String</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Information about the last network disconnect.]]></Description>
+            </Item>
+            <Item ID="2003"><Name>Clear Disconnect Reason</Name>
+                <Operations>E</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Optional</Mandatory>
+                <Type></Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Clear the disconnect reason information.]]></Description>
             </Item>
             </Resources>
 		<Description2></Description2>		
