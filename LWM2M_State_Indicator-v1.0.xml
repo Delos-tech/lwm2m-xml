@@ -1,0 +1,24 @@
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+    <Object ObjectType="MODefinition">
+        <Name>State Indicators</Name>
+        <Description1><![CDATA[This LWM2M Object provides state indicators.]]></Description1>
+        <ObjectID>35006</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:x:35006</ObjectURN>
+        <LWM2MVersion>1.0</LWM2MVersion>
+        <ObjectVersion>1.0</ObjectVersion>
+        <MultipleInstances>Multiple</MultipleInstances>
+        <Mandatory>Optional</Mandatory>
+        <Resources>
+            <Item ID="0"><Name>IAQ LED Color</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>String</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[IAQ LED color.]]></Description>
+            </Item> 
+            </Resources>
+        <Description2></Description2>       
+    </Object>
+</LWM2M>
