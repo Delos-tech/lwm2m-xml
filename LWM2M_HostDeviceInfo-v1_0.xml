@@ -75,15 +75,6 @@ POSSIBILITY OF SUCH DAMAGE.
 				<RangeEnumeration></RangeEnumeration>
 				<Units></Units>
 				<Description><![CDATA[Current software version of the host device (manufacturer specified string).]]></Description>
-			</Item>
-			<Item ID="5909"><Name>Host Device Extended Mac Address</Name>
-				<Operations>R</Operations>
-				<MultipleInstances>Multiple</MultipleInstances>
-				<Mandatory>Mandatory</Mandatory>
-				<Type>String</Type>
-				<RangeEnumeration></RangeEnumeration>
-				<Units></Units>
-				<Description><![CDATA[Extended MAC address of the host device.]]></Description>
 			</Item></Resources>
 		<Description2 />
 	</Object>

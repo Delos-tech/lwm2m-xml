@@ -4,9 +4,9 @@
     <Name>Device Notifications</Name>
     <Description1>Indicates when various event notifications were received from the cube.</Description1>
     <ObjectID>34950</ObjectID>
-    <ObjectURN>urn:oma:lwm2m:x:34950:1.2</ObjectURN>
+    <ObjectURN>urn:oma:lwm2m:x:34950</ObjectURN>
     <LWM2MVersion>1.0</LWM2MVersion>
-    <ObjectVersion>1.2</ObjectVersion>
+    <ObjectVersion>1.0</ObjectVersion>
     <MultipleInstances>Multiple</MultipleInstances>
     <Mandatory>Optional</Mandatory>
     <Resources>
