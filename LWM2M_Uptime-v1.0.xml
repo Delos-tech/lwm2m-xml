@@ -1,0 +1,51 @@
+<LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
+    <Object ObjectType="MODefinition">
+        <Name>Uptime</Name>
+        <Description1><![CDATA[This LWM2M Object provides uptime in seconds.]]></Description1>
+        <ObjectID>35007</ObjectID>
+        <ObjectURN>urn:oma:lwm2m:x:35007</ObjectURN>
+        <LWM2MVersion>1.0</LWM2MVersion>
+        <ObjectVersion>1.0</ObjectVersion>
+        <MultipleInstances>Single</MultipleInstances>
+        <Mandatory>Optional</Mandatory>
+        <Resources>
+            <Item ID="0"><Name>MCU Uptime</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[MCU uptime (seconds).]]></Description>
+            </Item>
+            <Item ID="1"><Name>Thread Uptime</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Thread uptime (seconds).]]></Description>
+            </Item>
+            <Item ID="2"><Name>Thread Connection Uptime</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Thread connection uptime (seconds).]]></Description>
+            </Item>
+            <Item ID="3"><Name>Num Thread Connections</Name>
+                <Operations>R</Operations>
+                <MultipleInstances>Single</MultipleInstances>
+                <Mandatory>Mandatory</Mandatory>
+                <Type>Integer</Type>
+                <RangeEnumeration></RangeEnumeration>
+                <Units></Units>
+                <Description><![CDATA[Number of Thread connections.]]></Description>
+            </Item>
+            </Resources>
+        <Description2></Description2>       
+    </Object>
+</LWM2M>
