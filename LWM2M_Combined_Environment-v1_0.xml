@@ -1,7 +1,7 @@
 <LWM2M xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://openmobilealliance.org/tech/profiles/LWM2M.xsd">
     <Object ObjectType="MODefinition">
         <Name>Combined Environment</Name>
-        <Description1><![CDATA[This LWM2M Object provides a consolidated bundle of Sensirion environment sensor data, including PM, VOC, temperature, and humidity.]]></Description1>
+        <Description1><![CDATA[This LWM2M Object provides a consolidated bundle of Sensirion environment sensor data, including PM, TVOC, temperature, and humidity.]]></Description1>
         <ObjectID>35008</ObjectID>
         <ObjectURN>urn:oma:lwm2m:x:35008</ObjectURN>
         <LWM2MVersion>1.0</LWM2MVersion>
